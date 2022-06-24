@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+h1, p, li{
+    color: white;
+}
+
+ul.ps li{
+    list-style-type: none;
+}
+
+header.hp {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+header.hp ul.rs li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header.hp ul.rs li a {
+    color: blue;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header.hp ul.rs li:hover a {
+    color: red;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+header.hp ul.us li#user {
+    text-align: left;
+    list-style-image: url('../img/img_users.png');
+    text-decoration: none;
+}
+
+header.hp ul.dc {
+    text-align: left;
+}

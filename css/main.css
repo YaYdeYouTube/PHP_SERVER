@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    text-align: unset;
+}
+
+h1, p, li{
+    color: white;
+}
+
+header.hp {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+header.hp ul.rs li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header.hp ul.rs li a {
+    color: blue;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header.hp ul.rs li:hover a {
+    color: red;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+header.hp ul.us li#user {
+    text-align: left;
+    list-style-image: url('../img/img_users.png');
+    text-decoration: none;
+}
+
+header.hp ul.dc {
+    text-align: left;
+}
+
+div.content div.centerbox {
+    text-align: center;
+    background-color: green;
+}
+
+div.content div.rightbox {
+    background-color: red;
+    text-align: right;
+}
+
+div.content div.leftbox {
+    text-align: left;
+    background-color: blue;
+}
+
+div.content div.leftbox ul.ps table {
+    list-style-type: upper-roman;
+}
+
+div.content {
+    background-color: black;
+}

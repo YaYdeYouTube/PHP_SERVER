@@ -1,0 +1,36 @@
+
+body {
+	background-color: yellow;
+	text-align: center;
+}
+
+div.login {
+	background-color: green;
+	width: 25%;
+	margin-left: 500px;
+}
+
+div.signin {
+	background-color: blue;
+	width: 25%;
+	margin-left: 550px;
+}
+
+nav.menu-nav ul li.btn {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+	color: white;
+	background: red;
+	padding: 10px;
+	text-decoration: none;
+	animation: 0.5s;
+}
+
+nav.menu-nav ul li.btn:hover a{
+	color: red;
+	background-color: white;
+	transition: 0.5s;
+}

@@ -1,0 +1,11 @@
+div.contact {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contact form {
+    display: flex;
+    flex-direction: column;
+}
